@@ -3,7 +3,7 @@ import {
   PersonOutline,
   Search,
 } from "@mui/icons-material";
-import { Box, IconButton, InputBase } from "@mui/material";
+import { Box, IconButton, InputBase ,Typography} from "@mui/material";
 import React from "react";
 import { colors } from "../../theme";
 
@@ -35,6 +35,7 @@ export const Topbar = () => {
           </IconButton>
           <IconButton sx={{ color: colors.grey[100], }}>
             <PersonOutline sx={{fontSize:'26px'}} />
+            <Typography variant="h2">Admin</Typography>
           </IconButton>
         </Box>
       </Box>

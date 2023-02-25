@@ -12,7 +12,7 @@ const Dashboard = () => {
   };
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [pendingProperties]);
   const columns = [
     {
       field: "title",
